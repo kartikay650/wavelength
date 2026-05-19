@@ -375,9 +375,10 @@ export default function Activation03() {
                 color: "#f6f1ea",
               }}
             >
-              Not a campaign. More like a rumour. Everywhere the right
-              person might be, there&apos;s something that feels like it was
-              left just for them.
+              500 stickers across Bangalore. Each one placed where our people
+              already are, written for exactly that spot. Cafe tables get one thing,
+              auto interiors get another. Every sticker has a UTM QR so we know
+              which locations convert.
             </div>
           </motion.div>
 
