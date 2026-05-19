@@ -7,9 +7,9 @@ const EASE: [number, number, number, number] = [0.25, 1, 0.5, 1];
 const IN_VIEW = { once: true, amount: 0.15 } as const;
 
 const PARAGRAPHS = [
-  "Kartikay Jalan. MESA School. I spend a lot of time trying to figure out why some things catch and others don't.",
-  "What Wavelength is doing offline is mostly untouched. The product has an opinion about how people should meet. I think that opinion should exist in the physical world too.",
-  "I put together 3 ideas for how.",
+  "I am Kartikay, studying at Mesa School in Bangalore. I've been first hire at a protein coffee brand, co-founded a socks brand, ran a bunch of offline activations for both. Not theory. Actually done it.",
+  "I'm on Wavelength. Haven't matched yet but honestly hoping that changes soon. The product is genuinely interesting, I just think not enough people in Bangalore know it exists yet.",
+  "The fastest way to fix that is wild offline stuff that makes people stop, post, tell someone. That compounds. I've put down 3 ideas here once given the responsibility I'll be cooking up new ones every week until Wavelength is the most talked about app in Bangalore.",
 ];
 
 export default function AboutMe() {
