@@ -324,8 +324,8 @@ export default function BudgetSummary() {
             color: "#8a8078",
           }}
         >
-          Three activations. One city. All of Bangalore talking about
-          Wavelength before a single paid ad runs.
+          Three things to run, two months to do it, and no budget line that
+          needs a board approval.
         </motion.p>
       </div>
 

@@ -226,9 +226,9 @@ export default function Activation03() {
               maxWidth: 520,
             }}
           >
-            Different copy everywhere our people are. Cafe tables say one
-            thing. Auto interiors say another. Each one written for that
-            exact moment and nowhere else.
+            Same sticker format. Different copy for every location. What you
+            read in an auto doesn&apos;t belong on a gym mirror. Each one is
+            written for exactly where it lands.
           </motion.p>
         </div>
 
@@ -375,10 +375,9 @@ export default function Activation03() {
                 color: "#f6f1ea",
               }}
             >
-              Wavelength lives where you live. Not on a feed, not in a
-              notification. On the table you eat at, in the auto you sit in,
-              on the board you walk past. Each sticker is a small
-              interruption in an ordinary moment.
+              Not a campaign. More like a rumour. Everywhere the right
+              person might be, there&apos;s something that feels like it was
+              left just for them.
             </div>
           </motion.div>
 
@@ -502,7 +501,7 @@ export default function Activation03() {
                   lineHeight: 1.6,
                 }}
               >
-                Low cost. High texture. Builds presence across the whole city.
+                Cheap to run. Hard to ignore.
               </div>
             </motion.div>
           </div>

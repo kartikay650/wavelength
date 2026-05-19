@@ -210,10 +210,9 @@ export default function Activation02() {
               maxWidth: 520,
             }}
           >
-            A branded booth in Indiranagar or Koramangala. You walk in, put on
-            earphones, talk to Wave for 15 minutes. You walk out with a printed
-            card — your Resonance Type. Something true about you. Something
-            that makes you photograph it.
+            A booth. You walk in, put on earphones, talk to Wave for 15
+            minutes. You walk out holding a printed card that says something
+            true about you. That card is what people post.
           </motion.p>
         </div>
 
@@ -320,8 +319,8 @@ export default function Activation02() {
                 color: "#8a8078",
               }}
             >
-              You take time to open up. When you do, it&apos;s total. Wave has
-              found 4 people who won&apos;t rush you.
+              You take time to open up. When you finally do, it&apos;s all at
+              once. Wave found 4 people who&apos;ll wait.
             </div>
 
             <div
@@ -342,7 +341,7 @@ export default function Activation02() {
                 className="font-script"
                 style={{ fontSize: 16, color: "#2d4a3e", opacity: 0.6 }}
               >
-                — Wave
+                Wave
               </div>
               <div
                 style={{
@@ -411,9 +410,9 @@ export default function Activation02() {
                 color: "#1a1a1a",
               }}
             >
-              The booth makes the product the event. Instead of explaining
-              what Wave does, people experience it. And the card they walk
-              out with is the thing they post.
+              Nobody reads an explanation of how an AI matchmaker works. But
+              they&apos;ll stand in a queue for something that feels like it
+              knows them. The card is the proof. That&apos;s what gets posted.
             </div>
           </motion.div>
 
@@ -537,7 +536,7 @@ export default function Activation02() {
                   lineHeight: 1.6,
                 }}
               >
-                The printed card is the hook. People post it.
+                People post the card. That&apos;s the whole plan.
               </div>
             </motion.div>
           </div>

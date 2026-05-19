@@ -7,9 +7,9 @@ const EASE: [number, number, number, number] = [0.25, 1, 0.5, 1];
 const IN_VIEW = { once: true, amount: 0.15 } as const;
 
 const PARAGRAPHS = [
-  "Kartikay Jalan. I study at MESA School and spend most of my time thinking about why some things spread and others don't.",
-  "Wavelength is the most interesting company in Bangalore right now. Not because of the tech, because of the belief. That real connection is worth building real things for.",
-  "I want to be the person who takes that outside.",
+  "Kartikay Jalan. MESA School. I spend a lot of time trying to figure out why some things catch and others don't.",
+  "What Wavelength is doing offline is mostly untouched. The product has an opinion about how people should meet. I think that opinion should exist in the physical world too.",
+  "I put together 3 ideas for how.",
 ];
 
 export default function AboutMe() {
@@ -251,7 +251,7 @@ export default function AboutMe() {
               cursor: "pointer",
             }}
           >
-            zero paid media↗
+            no ads. just presence↗
           </motion.div>
         </div>
       </div>

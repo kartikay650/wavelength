@@ -424,7 +424,7 @@ export default function Hero() {
             color: "#8a8078",
           }}
         >
-          3 ideas. One city. Zero paid media.
+          3 ideas. All offline. All Bangalore.
         </motion.p>
       </div>
 

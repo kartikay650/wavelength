@@ -187,10 +187,9 @@ export default function Activation01() {
               maxWidth: 520,
             }}
           >
-            Wave matched them. We put them in a tempo with transparent sides,
-            a table with food on it, fairy lights, and a first date. Then we
-            drove through Koramangala, Indiranagar, Church Street, and HSR on
-            a Sunday afternoon.
+            A tempo with see-through sides. A table. Food. Fairy lights. Two
+            people Wave matched, on their first date, moving through the city
+            on a Sunday.
           </motion.p>
         </div>
 
@@ -296,10 +295,9 @@ export default function Activation01() {
                 color: "#f6f1ea",
               }}
             >
-              People don&apos;t fall in love through a screen. They do it at
-              a table, with bad lighting and good food and someone they
-              didn&apos;t expect. The van just makes that moment impossible
-              to ignore.
+              People already know dating apps are broken. This just shows
+              them the alternative. A real date, in a glass box, driving past
+              them in traffic. Hard to scroll past that.
             </div>
           </motion.div>
 
@@ -419,7 +417,7 @@ export default function Activation01() {
                   lineHeight: 1.6,
                 }}
               >
-                Nothing like this has been done for a dating app in India.
+                First of its kind in India.
               </div>
             </motion.div>
           </div>

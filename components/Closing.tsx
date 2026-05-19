@@ -83,7 +83,7 @@ export default function Closing() {
           zIndex: 1,
         }}
       >
-        why I want this
+        one last thing
       </motion.div>
 
       {/* CENTRE BLOCK */}
@@ -149,9 +149,9 @@ export default function Closing() {
             color: "rgba(246,241,234,0.55)",
           }}
         >
-          I want to own this end to end. The ideas, the execution, the
-          learning. I&apos;ll show up for every run, stay for every debrief,
-          and care about this more than anyone else you&apos;d hire.
+          I&apos;ll run these myself. Source the van, brief the actors, place
+          the stickers, sit in the debrief after. I&apos;m not pitching ideas
+          for someone else to execute.
         </motion.p>
 
         <motion.div
@@ -215,7 +215,7 @@ export default function Closing() {
           zIndex: 2,
         }}
       >
-        let&apos;s make something real
+        I&apos;ll be there.
       </motion.div>
 
       {/* BOTTOM BAR */}
@@ -265,7 +265,7 @@ export default function Closing() {
             textAlign: "right",
           }}
         >
-          Made for Wavelength. By someone who wants to be there.
+          Made for Wavelength.
         </div>
       </div>
 
