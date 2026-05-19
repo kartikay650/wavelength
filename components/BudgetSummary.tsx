@@ -309,24 +309,6 @@ export default function BudgetSummary() {
           </div>
         </motion.div>
 
-        {/* SUMMARY LINE */}
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 16 }}
-          transition={{ duration: 0.7, delay: 0.7, ease: EXPO_OUT }}
-          className="font-display"
-          style={{
-            marginTop: 48,
-            marginBottom: 0,
-            maxWidth: 560,
-            fontSize: 20,
-            lineHeight: 1.75,
-            color: "#8a8078",
-          }}
-        >
-          Three things to run, two months to do it, and no budget line that
-          needs a board approval.
-        </motion.p>
       </div>
 
       {/* HANDWRITTEN NOTE */}

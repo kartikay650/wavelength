@@ -7,17 +7,6 @@ import WaveLogo from "@/components/WaveLogo";
 const EXPO_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 const IN_VIEW = { once: true, amount: 0.15 } as const;
 
-const HEADLINE_LINES: Array<{
-  text: string;
-  weight: number;
-  italic: boolean;
-  opacity: number;
-}> = [
-  { text: "If you're reading this,", weight: 300, italic: false, opacity: 1 },
-  { text: "Wave already knows", weight: 400, italic: true, opacity: 0.6 },
-  { text: "we'd get along.", weight: 400, italic: false, opacity: 1 },
-];
-
 export default function Closing() {
   const sectionRef = useRef<HTMLElement>(null);
   const inView = useInView(sectionRef, IN_VIEW);
@@ -93,7 +82,6 @@ export default function Closing() {
           position: "relative",
           zIndex: 1,
           margin: "auto 0",
-          maxWidth: 800,
         }}
       >
         <h2
@@ -106,33 +94,25 @@ export default function Closing() {
             letterSpacing: "-0.02em",
           }}
         >
-          {HEADLINE_LINES.map((line, i) => (
-            <span
-              key={i}
-              className="font-display"
-              style={{
-                display: "block",
-                fontWeight: line.weight,
-                fontStyle: line.italic ? "italic" : "normal",
-                opacity: line.opacity,
-                overflow: "hidden",
-                paddingBottom: "0.06em",
-              }}
+          <span
+            className="font-display"
+            style={{
+              display: "block",
+              fontWeight: 400,
+              fontStyle: "normal",
+              overflow: "hidden",
+              paddingBottom: "0.06em",
+            }}
+          >
+            <motion.span
+              initial={{ y: "110%" }}
+              animate={inView ? { y: "0%" } : { y: "110%" }}
+              transition={{ duration: 0.9, delay: 0.2, ease: EXPO_OUT }}
+              style={{ display: "inline-block" }}
             >
-              <motion.span
-                initial={{ y: "110%" }}
-                animate={inView ? { y: "0%" } : { y: "110%" }}
-                transition={{
-                  duration: 0.9,
-                  delay: 0.2 + i * 0.12,
-                  ease: EXPO_OUT,
-                }}
-                style={{ display: "inline-block" }}
-              >
-                {line.text}
-              </motion.span>
-            </span>
-          ))}
+              Hope to be part of the team.
+            </motion.span>
+          </span>
         </h2>
 
         <motion.p
@@ -147,11 +127,12 @@ export default function Closing() {
             fontSize: 15,
             lineHeight: 1.8,
             color: "rgba(246,241,234,0.55)",
+            whiteSpace: "pre-line",
           }}
         >
-          I&apos;ll run these myself. Source the van, brief the actors, place
-          the stickers, sit in the debrief after. I&apos;m not pitching ideas
-          for someone else to execute.
+          {`Doing cool stuff every day. .
+
+I've been helping brands grow on Reddit and building in that space. Would love to bring that to Wavelength. Reddit presence will improve GEO down the line.`}
         </motion.p>
 
         <motion.div
@@ -168,55 +149,16 @@ export default function Closing() {
           }}
         >
           <a
-            href="mailto:kartikay_jalan@ug29.mesaschool.co"
+            href="mailto:jalankartikay@gmail.com"
             className="font-sans closing-email"
           >
-            kartikay_jalan@ug29.mesaschool.co
+            jalankartikay@gmail.com
           </a>
-          <span
-            className="contact-sep"
-            style={{
-              width: 1,
-              height: 16,
-              background: "rgba(246,241,234,0.2)",
-              display: "inline-block",
-            }}
-          />
-          <span
-            className="font-sans"
-            style={{
-              fontSize: 12,
-              color: "rgba(246,241,234,0.4)",
-              letterSpacing: "0.1em",
-              fontStyle: "italic",
-            }}
-          >
-            Open to a conversation
-          </span>
         </motion.div>
       </div>
 
       {/* Spacer so flex space-between has third slot */}
       <div aria-hidden="true" />
-
-      {/* HANDWRITTEN FLOATING NOTE */}
-      <motion.div
-        initial={{ opacity: 0, x: 16 }}
-        animate={inView ? { opacity: 0.35, x: 0 } : { opacity: 0, x: 16 }}
-        transition={{ duration: 0.8, delay: 1.2, ease: EXPO_OUT }}
-        className="font-script closing-note"
-        style={{
-          position: "absolute",
-          bottom: 100,
-          right: "clamp(40px, 8vw, 120px)",
-          fontSize: 22,
-          color: "#f6f1ea",
-          transform: "rotate(-5deg)",
-          zIndex: 2,
-        }}
-      >
-        I&apos;ll be there.
-      </motion.div>
 
       {/* BOTTOM BAR */}
       <div
