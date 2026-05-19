@@ -12,7 +12,7 @@ const HEADLINE_LINES: Array<{
   italic: boolean;
   color?: string;
 }> = [
-  { text: "Fifteen minutes", weight: 400, italic: false },
+  { text: "Five minutes", weight: 400, italic: false },
   { text: "of honesty.", weight: 400, italic: true, color: "#2d4a3e" },
   { text: "A lifetime of possibility.", weight: 300, italic: false },
 ];
@@ -210,9 +210,11 @@ export default function Activation02() {
               maxWidth: 520,
             }}
           >
-            A booth. You walk in, put on earphones, talk to Wave for 15
-            minutes. You walk out holding a printed card that says something
-            true about you. That card is what people post.
+            A booth in Indiranagar or Koramangala. You walk in, put on earphones,
+            talk to Wave for 5 minutes. It asks you questions, figures out your
+            traits, and prints a card on the spot. The card has your personality
+            type, a QR to complete your onboarding on the app, and looks good
+            enough to post.
           </motion.p>
         </div>
 
@@ -410,9 +412,10 @@ export default function Activation02() {
                 color: "#1a1a1a",
               }}
             >
-              Nobody reads an explanation of how an AI matchmaker works. But
-              they&apos;ll stand in a queue for something that feels like it
-              knows them. The card is the proof. That&apos;s what gets posted.
+              A 5 minute conversation with Wave that ends with a printed card
+              in your hand. The card has your traits, a QR to finish onboarding,
+              and people post it. The booth drives downloads. The card does the
+              marketing.
             </div>
           </motion.div>
 
@@ -616,7 +619,7 @@ export default function Activation02() {
           zIndex: 2,
         }}
       >
-        15 mins with Wave → download
+        5 mins → traits → download
       </motion.div>
 
       {/* BOTTOM DIVIDER */}
