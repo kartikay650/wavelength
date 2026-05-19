@@ -156,7 +156,7 @@ export default function Activation02() {
         </div>
 
         {/* HEADLINE BLOCK */}
-        <div style={{ maxWidth: 820, marginBottom: 32 }}>
+        <div style={{ marginBottom: 32 }}>
           <h2
             className="act02-headline"
             style={{
