@@ -20,10 +20,10 @@ if (typeof window !== "undefined") {
 const EXPO_OUT: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
 const PHOTOS = {
-  A: "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=400",
-  B: "https://images.unsplash.com/photo-1516589091380-5d8e87df6999?w=400",
-  C: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=400",
-  D: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=400",
+  A: "/polaroid_1.png",
+  B: "/polaroid_2.png",
+  C: "/polaroid_3.png",
+  D: "/polaroid_4.png",
 };
 
 type PolaroidProps = {
