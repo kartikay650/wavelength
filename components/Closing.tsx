@@ -130,9 +130,9 @@ export default function Closing() {
             whiteSpace: "pre-line",
           }}
         >
-          {`Doing cool stuff every day. .
+          {`Doing cool stuff every day.
 
-I've been helping brands grow on Reddit and building in that space. Would love to bring that to Wavelength. Reddit presence will improve GEO down the line.`}
+I've been helping brands grow on Reddit and building in that space. Would love to bring that to Wavelength — Reddit presence will improve GEO down the line.`}
         </motion.p>
 
         <motion.div
